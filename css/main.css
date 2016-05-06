@@ -1,3 +1,72 @@
 html{
     background-color: #f5f5f5;
 }
+
+body{
+    background-color: #fff;
+
+}
+
+nav{
+
+    margin-bottom: 30px;
+}
+
+.jumbotron{
+    width: 100%;
+    height: 360px;
+}
+
+.school-header{
+    background-color: #f4ae44;
+    height: 24px;
+    padding: 6px 15px 6px 15 px;
+    text-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.school-article{
+    margin-bottom: 30px;
+
+}
+
+.school-tag{
+    background-color: #f4ae44;
+    width: auto;
+    height: 18px;
+    padding: 6px 15px 6px 15 px;
+    text-size: 12px;
+    color: #fff;
+}
+
+.article-img{
+    width: 100%;
+    height: 156px;
+}
+
+.article-h1{
+
+}
+
+.article-p{
+
+}
+
+.article-hr{
+
+}
+
+.aside-banner{
+    width: 100%;
+    height: 282px;
+    margin-bottom: 30px;
+}
+
+footer{
+    display: block;
+    width: 100%;
+    height: 210px;
+    background-color: #7d7d7d;
+
+}
