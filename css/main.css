@@ -4,7 +4,25 @@ html{
 
 body{
     background-color: #fff;
+    box-shadow: 0 0 0 1px #e9e9e9;
+    font-family: "Open Sans";
+}
 
+hr{
+    margin: 0 0 0 0;
+}
+
+header{
+    width: 100%;
+    height: 240px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logo{
+    position: relative;
+    vertical-align: middle;
+    margin: auto;
 }
 
 nav{
@@ -12,37 +30,50 @@ nav{
     margin-bottom: 30px;
 }
 
-.jumbotron{
+#carousel-example-generic{
     width: 100%;
-    height: 360px;
+    height: 480px;
+    margin-bottom: 30px;
+}
+
+main{
+
 }
 
 .school-header{
     background-color: #f4ae44;
-    height: 24px;
-    padding: 6px 15px 6px 15 px;
-    text-size: 16px;
-    color: #fff;
+    width: 100%;
+    height: 30px;
+    padding: 6px 15px 6px 15px;
+
     margin-bottom: 30px;
+
+
+}
+
+.school-header span{
+    position: relative;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    vertical-align: text-top;
 }
 
 .school-article{
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 
 }
 
-.school-tag{
-    background-color: #f4ae44;
-    width: auto;
-    height: 18px;
-    padding: 6px 15px 6px 15 px;
-    text-size: 12px;
-    color: #fff;
+.label{
+    position: absolute;
+    background-color: rgba(255, 167, 38, 0.8);
+    border-radius: 0px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
-.article-img{
-    width: 100%;
-    height: 156px;
+.article-h1, .article-h1{
+    color: ;
 }
 
 .article-h1{
@@ -50,17 +81,57 @@ nav{
 }
 
 .article-p{
+    font-size: 16px;
+    margin-bottom: 30px;
 
+}
+
+.company{
+    display: table;
+    margin-bottom: 6px;
+    font-weight: 300;
+}
+
+.date{
+    display: table;
+    margin-bottom: 24px;
+    font-weight: 300;
+}
+
+.icon{
+    width: 18px;
+    height: 18px;
+    display: table-cell;
+    margin-right: 12px;
+    opacity: 0.4;
+}
+
+.company-link{
+    vertical-align: middle;
+    display: table-cell;
+    color: black;
+
+}
+
+#publication-date{
+    vertical-align: middle;
+    display: table-cell;
 }
 
 .article-hr{
 
 }
 
-.aside-banner{
-    width: 100%;
-    height: 282px;
+.banner-sm{
+    display: inline-block;
+    float: left;
+    width: 255px;
+    height: 300px;
+    background-color: #8c8c8c;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 30px;
+
 }
 
 footer{
